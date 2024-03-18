@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "titulo": "Not\u00edcia emocionante!",
+      "mensagem": "Aconteceu algo incr\u00edvel que voc\u00ea precisa saber!",
+      "foto": "https://ar.pinterest.com/ceadario/fotos-emocionantes/"
+    },
+    {
+      "id": 2,
+      "titulo": "Dicas para o fim de semana",
+      "mensagem": "Aproveite ao m\u00e1ximo seu tempo livre com essas sugest\u00f5es!",
+      "foto": "https://br.pinterest.com/angelacoutinhon/fim-de-semana/"
+    },
+    {
+      "id": 3,
+      "titulo": "Receita deliciosa",
+      "mensagem": "Prepare este prato saboroso e surpreenda seu paladar!",
+      "foto": "https://br.pinterest.com/genicunha/receitas-com-fotos-ou-desenhos/"
+    },
+    {
+      "id": 4,
+      "titulo": "Curiosidade interessante",
+      "mensagem": "Descubra um fato que vai te deixar intrigado!",
+      "foto": "https://br.freepik.com/fotos/curiosidade"
+    },
+    {
+      "id": 5,
+      "titulo": "Promo\u00e7\u00e3o imperd\u00edvel",
+      "mensagem": "N\u00e3o perca essa chance de economizar!",
+      "foto": "https://br.freepik.com/fotos/oferta-imperdivel"
+    }
+  ]
