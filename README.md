@@ -14,6 +14,7 @@
 <hr/>
 
 <p>
-    ``composer install
-    php artisan serve
+    <b>composer install</b>
+    <br>
+    <b>php artisan serve</b>
 </p>
