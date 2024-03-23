@@ -178,9 +178,27 @@
 <script>
     const fetchPromise = fetch("/server.json");
     fetchPromise.then(response => {
-
-        return response.json();
-    }).then(error => {
-        console.log(error);
+        const data = response.json();
+        let inners = '';
+        if (document.getElementById('list-cards')) {
+            data.then(items => {
+                inners += items.map(item => {
+                    return `
+                        <a class="card" href="#" id=${item.id}>
+                            <div class="card__background"
+                                style="background-image: url(${item.foto})">
+                            </div>
+                            <div class="card__content">
+                                <p class="card__category">${item.titulo}</p>
+                                <h3 class="card__heading">${item.mensagem}</h3>
+                            </div>
+                        </a>
+                    `;
+                });
+            document.getElementById('list-cards').innerHTML = inners;
+            })
+        }
+    }).catch(error => {
+        //codigo se der erro. esse código é um comentário.
     });
 </script>
