@@ -175,3 +175,4 @@
 
 //  cp .env.example .env
 //  php artisan k:g
+// php artisan serve
